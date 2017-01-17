@@ -1,0 +1,1 @@
+GitIgnore: https://github.com/github/gitignore
