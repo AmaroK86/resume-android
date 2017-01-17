@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/ic_person_black_24dp"
+        title="@string/title_profile" />
+    <tab
+        id="@+id/tab_portfolio"
+        icon="@drawable/ic_folder_black_24dp"
+        title="@string/title_portfolio" />
+    <tab
+        id="@+id/tab_contacts"
+        icon="@drawable/ic_email_black_24dp"
+        title="@string/title_contacts" />
+    <tab
+        id="@+id/tab_credits"
+        icon="@drawable/ic_gesture_black_24dp"
+        title="@string/title_credits" />
+</tabs>

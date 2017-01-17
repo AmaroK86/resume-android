@@ -71,7 +71,7 @@ public abstract class AppCompatActivityExt extends AppCompatActivity {
     protected void setPostContentView() {
         ButterKnife.bind(this);
         setToolbar(R.id.toolbar);
-        setCoordinatorLayout(R.id.coordinatorLayout);
+        setCoordinatorLayout(R.id.coordinator_layout);
         setLoadingOverlay(R.id.layout_loading_overlay);
     }
 

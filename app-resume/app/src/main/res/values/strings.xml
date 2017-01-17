@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Resume</string>
+
+    <string name="title_profile">Profile</string>
+    <string name="title_portfolio">Portfolio</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_credits">Credits</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

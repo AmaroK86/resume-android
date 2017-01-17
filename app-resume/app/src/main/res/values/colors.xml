@@ -5,4 +5,10 @@
     <color name="colorAccent">#FF4081</color>
     <color name="textColorPrimary">#8c8c8c</color>
     <color name="textColorPrimaryDark">#2e2e2e</color>
+
+    <color name="gray_0">#101010</color>
+    <color name="gray_0_alpha_30">#4D101010</color>
+    <color name="gray_0_alpha_50">#7a101010</color>
+    <color name="gray_0_alpha_70">#b2101010</color>
+    <color name="gray_0_alpha_90">#e5101010</color>
 </resources>

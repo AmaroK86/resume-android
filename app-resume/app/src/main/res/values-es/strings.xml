@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_profile">Perfil</string>
+    <string name="title_portfolio">Portfolio</string>
+    <string name="title_contacts">Contactos</string>
+    <string name="title_credits">Créditos</string>
+</resources>
