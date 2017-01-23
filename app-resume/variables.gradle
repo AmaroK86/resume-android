@@ -6,7 +6,7 @@ ext {
     sdkMinimumVersion = 17
     sdkTargetVersion = 25
 
-    buildToolsVersion = '25.0.0'
+    buildToolsVersion = '25.0.2'
 
     // most updated libraries version
     supportLibraryVersion = '25.1.0'

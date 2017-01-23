@@ -107,17 +107,17 @@ public abstract class AppCompatActivityExt extends AppCompatActivity {
     protected Snackbar getSnackbar() {
         return mSnackbar;
     }
+
     /**
      * Function tha displays a Snackbar with the given:
+     *
      * @param message
      * @param duration
      * @param action
-     * @param actionListener
-     *
-     * If there isn't a coordinatorlayout a Toast is shown instead
+     * @param actionListener If there isn't a coordinatorlayout a Toast is shown instead
      */
     protected void showSnackBar(String message, int duration, String action, View.OnClickListener actionListener) {
-        if(mCoordinatorLayout != null) {
+        if (mCoordinatorLayout != null) {
             mSnackbar = Snackbar.make(mCoordinatorLayout, message, duration);
             TextView tv = (TextView) mSnackbar.getView().findViewById(android.support.design.R.id.snackbar_text);
             tv.setTextColor(Color.WHITE);
@@ -126,7 +126,7 @@ public abstract class AppCompatActivityExt extends AppCompatActivity {
                 mSnackbar.setActionTextColor(ContextCompat.getColor(this, R.color.textColorPrimary));
             }
             mSnackbar.show();
-        }else {
+        } else {
             Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
         }
     }
